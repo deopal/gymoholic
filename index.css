@@ -1,0 +1,95 @@
+body{
+    font-family: 'Roboto Slab', serif;
+    color:white;
+    margin:0px;
+    padding: 0px 0px;
+}
+.left{
+    font-family:monospace;
+    font-size:10px;
+    position:absolute;
+    left:34px;
+    top:18px;
+border:2px solid black;
+display:inline-block;
+}
+.left img{
+    width:80px;
+    filter:invert(100%);
+   
+}.left div{
+    text-align:center;
+}
+.mid{
+    font-family: 'Roboto Slab', serif;
+    display:block;
+    width:36%;
+    margin:15px auto;
+border:2px solid black;
+}
+.right{
+    position:absolute;
+    right:34px;
+    top:18px;
+    border:2px solid black;
+    display:inline-block;
+}
+.navbar{
+    display:inline-block;
+
+}
+.navbar li{
+    display:inline-block;
+    padding:4px;
+    font-size:22px;
+}
+.navbar li a{
+    color:white;
+    text-decoration:none;
+}
+.navbar li a:hover,.navbar li a.active{
+    text-decoration:underline;
+    color:yellow;
+}
+.btn{
+    font-family: 'Roboto Slab', serif;
+    margin:0px 5px;
+    background-color:rgb(32, 30, 30);
+    color:white;
+    padding:5px 15px;
+    border-radius:10%
+}
+.btn:hover{
+    background-color:rgb(56, 51, 51);
+    cursor:pointer;
+}
+.container{
+    border:2px solid grey;
+    border-radius:2px;
+    margin:22px 34px;
+    width:20%;
+    padding:50px 10px;
+    border-radius:5%;
+}
+.formgroup{
+    font-family:'Roboto Slab', serif;
+    border:2px solid rgb(82, 79, 79);
+    margin:4px;
+    padding:0px;
+    display:inline-block;
+    border-radius:2px;
+}
+.container h1{
+    font-size:20px;
+}
+.about{
+  background-color: cyan;
+  padding:1rem;
+  align-items:center;
+  padding-bottom:10rem;
+}
+.index{
+    padding-top:1rem;
+    background:url('img/boxer-2758887_1920.jpg');
+    padding-bottom:40rem;
+}
